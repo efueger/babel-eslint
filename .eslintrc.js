@@ -1,27 +1,26 @@
-{
-  "rules": {
-    "strict": 0,
-    "no-underscore-dangle": 0,
-    "curly": 0,
-    "no-multi-spaces": 0,
-    "key-spacing": 0,
-    "no-return-assign": 0,
-    "consistent-return": 0,
-    "no-shadow": 0,
-    "comma-dangle": 0,
-    "no-use-before-define": 0,
-    "no-empty": 0,
-    "new-parens": 0,
-    "no-cond-assign": 0,
-    "no-fallthrough": 0,
-    "new-cap": 0,
-    "no-loop-func": 0,
-    "no-unreachable": 0,
-    "no-process-exit": 0,
-    "quotes": [1, "double", "avoid-escape"]
-  },
-  "env": {
-    "node": true,
-    "mocha": true
-  }
-}
+module.exports = {
+    "rules": {
+        "indent": [
+            2,
+            4
+        ],
+        "quotes": [
+            2,
+            "single"
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "semi": [
+            2,
+            "always"
+        ]
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "extends": "eslint:recommended"
+};
