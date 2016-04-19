@@ -10,8 +10,8 @@ engines:
       - php
   eslint:
     enabled: true
-    config:
-      config: /.eslintrc.js
+    # config:
+    #   config: /.eslintrc.js
   fixme:
     enabled: false
 ratings:
