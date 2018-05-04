@@ -461,3 +461,4 @@ exports.parseNoPatch = function (code) {
 
   return ast;
 }
+
